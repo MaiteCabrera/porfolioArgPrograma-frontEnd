@@ -1,0 +1,36 @@
+
+
+.row{
+    padding: 20px;
+}
+div{
+    background-color: rgb(109, 176, 234); /*Color del acerca de mi */
+    text-align: center;
+}
+/*Etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    
+}
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey; /*esto el da una sombrita*/
+        left: 3%;
+        top: 600px;
+    }
+}
+@media (max-width: 576px){
+    #fotodeperfil{
+     position: absolute;
+     width: 30%;
+     border-radius: 100%;
+    box-shadow: 3px 3px 3px grey; /*esto el da una sombrita*/
+     left: 33%;
+      top: 950px;
+        }
+}

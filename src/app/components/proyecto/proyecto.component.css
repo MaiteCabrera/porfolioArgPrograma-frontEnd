@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+    background-color: rgb(226, 213, 238);
+}
+.contenedor{
+    width: auto;
+
+}
+.parte, .parte2{    /*parte escrita y foto*/ 
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{  /*Flota la imagen con color de fondo*/ 
+    box-shadow: 10px 10px 30px #392e2e;
+}
