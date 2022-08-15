@@ -1,4 +1,6 @@
 .row{
-    background-color:rgb(140, 140, 148);
+    background-color:rgb(12, 12, 12);
     padding: 20px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
 }

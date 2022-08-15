@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 .redes{
     margin-right: 0.5em;    /*La distancia de las redes al margen derecho*/
@@ -16,6 +17,7 @@ img{
 }
 .btn{
     border-width: medium;
+    color: rgb(249, 252, 255);
 }
 
 /* Para la vista de celular */

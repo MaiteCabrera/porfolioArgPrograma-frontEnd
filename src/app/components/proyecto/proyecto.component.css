@@ -1,6 +1,8 @@
 .row{
     padding: 20px;
-    background-color: rgb(206, 186, 224);
+    background-color: rgb(13, 12, 12);
+    color: #fff;
+    font-family: "Raleway", sans-serif;
 }
 .contenedor{
     width: auto;

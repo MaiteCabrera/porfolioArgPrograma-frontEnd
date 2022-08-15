@@ -2,9 +2,11 @@
 
 .row{
     padding: 20px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
 }
 div{
-    background-color: #636467; /*Color del acerca de mi */
+    background-color: #000000; /*Color del acerca de mi */
     text-align: center;
 }
 /*Etiqueta nombre*/
