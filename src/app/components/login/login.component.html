@@ -24,13 +24,13 @@
 
 
                     <div class="form-outline mb-4">
-                      <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg" [(ngModel)]="nombreUsuario" required/>
-                      <label class="form-label" for="form2Example17">Usuario</label>
+                      <input type="email" id="nombreUsuario"  class="form-control form-control-lg" [(ngModel)]="nombreUsuario" [ngModelOptions]="{standalone:true}" required/>
+                      <label class="form-label" for="nombreUsuario">Usuario</label>
                     </div>
 
                     <div class="form-outline mb-4">
-                      <input type="password" id="password" class="form-control form-control-lg" [(ngModel)]="password" required/>
-                      <label class="form-label" for="form2Example27">Contraseña</label>
+                      <input type="password" id="password" class="form-control form-control-lg" [(ngModel)]="password"  [ngModelOptions]="{standalone:true}"  required/>
+                      <label class="form-label" for="password">Contraseña</label>
                     </div>
 
                     <div class="pt-1 mb-4">
