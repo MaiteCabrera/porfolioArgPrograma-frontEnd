@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  //URL: 'http//localhost:8080/'
-  //producción de hereoku
-  //URL: 'http://heroku-nombremio.com/'
+  
+  URL: 'http://localhost:8080/'
+  
 };
 
 /*
