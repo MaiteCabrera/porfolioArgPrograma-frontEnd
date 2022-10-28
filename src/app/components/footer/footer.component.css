@@ -1,6 +1,6 @@
 
 .row{
-    background-color: #a1b5cb;
+    background-color: hsl(211, 29%, 71%);
     font-family: "Raleway", sans-serif;
 }
 footer{
@@ -10,4 +10,5 @@ footer{
     flex-direction: column;
     text-align: center;
     box-shadow: 2px -2px 5px  #999;
+   background-image: url('../../../assets/img/vientoqueonda.png');
 }

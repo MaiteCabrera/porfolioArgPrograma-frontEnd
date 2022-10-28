@@ -18,20 +18,20 @@ div{
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
-        position: absolute;
-        width: 15%;
+        position: -webkit-sticky;
+        width: auto;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey; /*esto el da una sombrita*/
+        box-shadow: 3px 3px 3px rgba(33, 3, 228, 0.744); /*esto el da una sombrita*/
         left: 3%;
         top: 600px;
     }
 }
 @media (max-width: 576px){
     #fotodeperfil{
-     position: absolute;
+     position: -webkit-sticky;
      width: 30%;
      border-radius: 100%;
-    box-shadow: 3px 3px 3px grey; /*esto el da una sombrita*/
+    box-shadow: 3px 3px 3px rgb(0, 0, 183); /*esto el da una sombrita*/
      left: 33%;
       top: 950px;
         }

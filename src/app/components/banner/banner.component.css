@@ -1,5 +1,12 @@
-img{
+/*
+.banner{
     width: 100%;
     height: 600px; /*A 1000 pxl banner le queda bien por el formato de la imagen pero cada uno tiene un distinto px*/
+
+
+header{
+    background-image: url(../../../assets/img/vientoqueonda.png);
+    color: aliceblue;
+    
 
 }
