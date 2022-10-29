@@ -8,7 +8,7 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
-  persona: Persona = new Persona("","","");
+  persona: Persona = new Persona("Maite","Cabrera","");
   
   constructor(public personaService: PersonaService) {
     this.personaService.getPersona().subscribe(data => {console.log(data)/*this.persona = data*/})

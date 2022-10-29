@@ -6,12 +6,12 @@
 }
 .contenedor{
     width: auto;
-
+ 
 }
-.parte, .parte2{    /*parte escrita y foto*/ 
+.parte, .parte2{    /*parte escrita y foto*/
     display: inline-block;
     text-align: justify;
 }
-.img-proyecto{  /*Flota la imagen con color de fondo*/ 
+.img-proyecto{  /*Flota la imagen con color de fondo*/
     box-shadow: 10px 10px 30px #392e2e;
 }
