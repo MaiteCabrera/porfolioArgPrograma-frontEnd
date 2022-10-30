@@ -12,9 +12,31 @@ export class PersonaService {
   ///URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/personas/';
   URL = 'http://localhost:8080/personas/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
+  
+  public lista (): Observable<persona[]>{
+    return this.httpClient.get<persona[]>(this.URL + 'lista');
 
-  public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+ 'traer/perfil');
+
   }
+
+  public detail(id :number):Observable<persona>{
+    return this.httpClient.get<persona>(this.URL + `traer/perfil`);
+
+}
+
+/*public save(educacion :Educacion):Observable<any>{
+    return this.httpClient.post<any>(this.URL + `create`, educacion);
+}*/
+
+public update(id :number, Persona:persona):Observable<any>{
+    return this.httpClient.put<any>(`${this.URL}editar/${id}`, Persona);
+
+
+}
+
+/*public delete (id : number): Observable<any>{
+    return this.httpClient.delete<any>(this.URL + `delete/${id}`);
+}*/
+
 }
