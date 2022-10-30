@@ -3,10 +3,10 @@
     background-color: rgb(13, 12, 12);
     color: #fff;
     font-family: "Raleway", sans-serif;
+    
 }
 .contenedor{
     width: auto;
- 
 }
 .parte, .parte2{    /*parte escrita y foto*/
     display: inline-block;

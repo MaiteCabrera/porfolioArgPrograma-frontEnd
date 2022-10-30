@@ -7,7 +7,9 @@ import { Project } from '../model/Project.model';
   providedIn: 'root',
 })
 export class ProjectService {
-    URL = environment.URL + 'Project/';
+  URL = 'http://localhost:8080/Project/';
+
+  //URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/Project/';
   
   constructor(private http: HttpClient) {}
 
