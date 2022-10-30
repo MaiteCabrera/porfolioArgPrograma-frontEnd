@@ -29,6 +29,7 @@ export class EditAcercaDeComponent implements OnInit {
         this.router.navigate(['']);
       }
     )
+
   }
 
   onUpdate(): void{
