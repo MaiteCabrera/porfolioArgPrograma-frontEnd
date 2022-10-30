@@ -1,10 +1,10 @@
-export class Persona{
+export class persona{
     id?: number;
     nombre: String;
     apellido: String;
     img: String;
-/*El id es autogenerado*/
-    constructor(nombre: String, apellido: String, img: String){
+
+    constructor(nombre: String,apellido: String, img: String){
         this.nombre = nombre;
         this.apellido = apellido;
         this.img = img;

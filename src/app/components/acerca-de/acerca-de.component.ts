@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Persona } from 'src/app/model/Persona.model';
+import { persona } from 'src/app/model/persona.model';
 import { PersonaService } from 'src/app/service/persona.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./acerca-de.component.css']
 })
 export class AcercaDeComponent implements OnInit {
-  persona: Persona = new Persona("Maite","Cabrera","");
+  persona: persona = new persona("Maite","Cabrera","");
   
   constructor(public personaService: PersonaService) {
     this.personaService.getPersona().subscribe(data => {console.log(data)/*this.persona = data*/})
