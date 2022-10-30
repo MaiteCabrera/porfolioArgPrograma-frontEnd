@@ -9,7 +9,7 @@ import { Persona } from '../model/Persona.model';
 })
 
 export class PersonaService {
-  //URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/personas/';
+  ///URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/personas/';
   URL = 'http://localhost:8080/personas/';
 
   constructor(private http: HttpClient) { }
