@@ -17,7 +17,7 @@ export class EditAcercaDeComponent implements OnInit {
     private personaService: PersonaService, 
     private router : Router,
     ) { }
-
+//
   ngOnInit(): void {
     const id = 1;
     console.log(id);
