@@ -8,8 +8,8 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  //URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/explab/';
-   URL = 'http://localhost:8080/explab/';
+  URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/explab/';
+  // URL = 'http://localhost:8080/explab/';
 
   constructor(private httpClient: HttpClient) { }
 
