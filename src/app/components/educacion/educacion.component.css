@@ -6,8 +6,14 @@
 
 div{
     background-color: #000000; /* color de fondo de educacion*/
+
   
 }
 h1,h3{
     display: inline; 
+    
+}
+.table{
+    color: #FFFFFF;
+
 }

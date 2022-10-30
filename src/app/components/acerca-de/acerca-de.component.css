@@ -18,12 +18,14 @@ div{
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
-        position: -webkit-sticky;
-        width: auto;
         border-radius: 100%;
         box-shadow: 3px 3px 3px rgba(33, 3, 228, 0.744); /*esto el da una sombrita*/
-        left: 3%;
-        top: 600px;
+        
+    }
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (max-width: 576px){

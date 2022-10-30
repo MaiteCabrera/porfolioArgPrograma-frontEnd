@@ -11,7 +11,11 @@
 .parte, .parte2{    /*parte escrita y foto*/
     display: inline-block;
     text-align: justify;
+    margin: center;
 }
 .img-proyecto{  /*Flota la imagen con color de fondo*/
     box-shadow: 10px 10px 30px #392e2e;
+    min-width: 576px;
+    max-width: 576px;
 }
+
