@@ -10,6 +10,6 @@ export const environment = {
     measurementId: 'G-XZPNFSYQB7',
   },
   production: true,
-  //producción de hereoku
-  //URL: https://maitecabreraporfolioargprogram.herokuapp.com/
+  //producción de render 
+  //URL: https://backendmaitecabrera.onrender.com
 };

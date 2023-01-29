@@ -8,8 +8,8 @@ import { Project } from '../model/Project.model';
 })
 export class ProjectService {
   //URL = 'http://localhost:8080/Project/';
-
-  URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/Project/';
+ 
+  URL ='https://backendmaitecabrera.onrender.com/Project/';
   
   constructor(private http: HttpClient) {}
 

@@ -11,7 +11,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
   //URL = 'http://localhost:8080/auth/';
-  URL = 'https://maitecabreraporfolioargprogram.herokuapp.com/auth/';
+  URL = 'https://backendmaitecabrera.onrender.com/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
